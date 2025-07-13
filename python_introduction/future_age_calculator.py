@@ -1,4 +1,4 @@
-input_age = int(input("How old are you: "))
+input_age = int(input("How old are you? "))
 
 current_year = 2023
 
