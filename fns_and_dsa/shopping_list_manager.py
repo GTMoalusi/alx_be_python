@@ -22,14 +22,12 @@ def clear_list():
     return "Shopping list cleared."
 
 def display_menu():
-    return (
-        "Shopping List Manager Menu:\n"
-        "1. Add item\n"
-        "2. Remove item\n"
-        "3. View list\n"
-        "4. Clear list\n"
-        "5. Exit"
-    ) 
+   print("\n--- Shopping List Manager Menu ---")
+   print("1. Add item")
+   print("2. Remove item")
+   print("3. View list")
+   print("4. Clear list")
+   print("5. Exit")
 
 def run_shopping_list_manager():
     
