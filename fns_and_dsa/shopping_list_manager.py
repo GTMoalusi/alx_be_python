@@ -22,7 +22,7 @@ def clear_list():
     return "Shopping list cleared."
 
 def display_menu():
-   print("\n--- Shopping List Manager Menu ---")
+   print("Shopping List Manager Menu")
    print("1. Add item")
    print("2. Remove item")
    print("3. View list")
