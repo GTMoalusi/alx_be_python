@@ -1,5 +1,5 @@
 class Book:
-    
+ 
     def __init__(self, title, author):
         self.title = title
         self.author = author
@@ -26,7 +26,7 @@ class PrintBook(Book):
         return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 class Library:
-    
+   
     def __init__(self):
         self.books = []
 
@@ -34,6 +34,5 @@ class Library:
         self.books.append(book)
 
     def list_books(self):
-        print("\nListing all books in the library:")
         for book in self.books:
             print(book)
